@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/mikky.css' %}">
+</head>
+<body>
+    <center>
+        <h1>@@ mikky @@</h1>
+        <h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum aut odit,
+             repellendus molestias excepturi explicabo cum numquam enim, soluta, dolores voluptatum. 
+            Repudiandae corrupti corporis velit culpa saepe voluptates quibusdam cumque.</p></h2>
+            <marquee behavior="alternate" direction="slide">
+                <img src="{% static 'images/mikky.jpg' %}" alt="image not found"/>
+                <img src="{% static 'images/mrunal.jpg' %}" alt="image not found"/>
+            </marquee>
+            
+            <h3><a href="{% url 'disney' %}">click here to see #disney#</a></h3>
+            <h3><a href="{% url 'motu_patlu' %}">click here to see $motu_patlu$</a></h3>
+            <h3><a href="{% url 'tom_jerry' %}">click here to see &tom_jerry&</a></h3>
+    </center>
+</body>
+</html>

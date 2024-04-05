@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/motu_patlu.css' %}">
+</head>
+<body>
+    <center>
+        <h1>$$ motu_patlu $$</h1>
+        <h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quidem, 
+            atque nam quo dolorem ducimus hic nihil enim facere at? Rem nostrum, 
+            corporis veritatis hic officia accusantium, ex,
+            tempora mollitia nesciunt voluptate quibusdam quaerat!
+            Tenetur ratione praesentium provident ea placeat?</p></h2>
+            <img src="{% static 'images/motu_patlu.jpg' %}" alt="image not found">
+            <h3><a href="{% url 'mikky' %}">click here to see @mikky@</a></h3>
+            <h3><a href="{% url 'disney' %}">click here to see #disney#</a></h3>
+            <h3><a href="{% url 'tom_jerry' %}">click here to see &tom_jerry&</a></h3>
+
+    </center>
+</body>
+</html>

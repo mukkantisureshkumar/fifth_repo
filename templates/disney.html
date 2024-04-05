@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/disney.css' %}"/>
+</head>
+<body>
+    <center>
+        <h1>## Disney ##</h1>
+        <h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis in laudantium et necessitatibus quaerat laboriosam,
+            deleniti blanditiis quas nemo, tempora rerum!
+            Voluptatum libero commodi enim nostrum modi eos eveniet quis.</p></h2>
+            <img src="{% static 'images/disney.jpg' %}" alt="image not found">
+            <h3><a href="{% url 'mikky' %}">click here to see @mikky@ </a></h3>
+            <h3><a href="{% url 'motu_patlu' %}">click here to see $motu_patlu$</a></h3>
+            <h3><a href="{% url 'tom_jerry' %}">click here to see &tom_jerry&</a></h3>
+    </center>
+</body>
+</html>

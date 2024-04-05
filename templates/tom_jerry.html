@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/tom_jerry.css' %}">
+</head>
+<body>
+    <center>
+        <h1>&& Tom_Jerry &&</h1>
+        <h2><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Cumque nobis in quidem perferendis est laborum nemo neque, voluptatibus adipisci eum,
+            delectus soluta fugit impedit id quam sint totam. 
+            Adipisci commodi magnam cupiditate, et ea deleniti iusto debitis veniam enim iste!</p></h2>
+            <img src="{% static 'images/tom_jerry.avif' %}" alt="image not found"/>
+            <h3><a href="{% url 'mikky' %}">click here to see @mikky@</a></h3>
+            <h3><a href="{% url 'disney' %}">click here to see #disney#</a></h3>
+            <h3><a href="{% url 'motu_patlu' %}">click here to see $motu_patlu$</a></h3>
+    </center>
+</body>
+</html>

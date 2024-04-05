@@ -1,0 +1,14 @@
+h1{
+    background-color: black;
+    color: rgb(243, 169, 9);
+    border-radius: 40px 40px 40px 40px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 60px 0px 60px 0px;
+    background-image: linear-gradient(red,blue,yellow);
+    margin: auto;
+    padding: 10px;
+    
+}
